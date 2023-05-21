@@ -9,5 +9,6 @@ const router = express.Router();
 
 //login page
 router.get("/",decorateHtmlResponse("Users"), getUsers);
+ 
 
 module.exports = router;
